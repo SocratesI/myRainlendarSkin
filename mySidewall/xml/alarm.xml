@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0">
+	<alarm id="Alarm" threshold="64" textmargins="15,25,15,50">
+		<image id="Alarm.background" element="bitmap.alarm" origin1="TOP-LEFT" x1="0" y1="0" origin2="BOTTOM-RIGHT" x2="0" y2="0" scaling="STRETCH" margins="128,25,25,50" />
+		<item id="Alarm.item">
+			<appearance padding="30,0,0,0" element="font.large" color="255,255,255,255" effect="NORMAL" align="CENTER-LEFT" />
+			<button id="Alarm.button.dismiss" element="button.dismiss" x="0" y="5" origin="TOP-LEFT" action="Global_Dismiss(#GUID#)" tooltip="Dismiss" />
+			<button id="Alarm.button.snooze" element="button.snooze" x="15" y="5" origin="TOP-LEFT" action="Global_Snooze(#GUID#)" tooltip="Snooze" />
+		</item>
+		<button id="Alarm.button.dismissall" element="button.dismissall" origin="BOTTOM-CENTER" x="-35" y="-40" action="Global_DismissAll()" tooltip="Dismiss All" />
+		<button id="Alarm.button.snoozeall" element="button.snoozeall" origin="BOTTOM-CENTER" x="3" y="-40" action="Global_SnoozeAll()" tooltip="Snooze All" />
+	</alarm>
+</skin>

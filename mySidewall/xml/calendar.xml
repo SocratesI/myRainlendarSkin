@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0">
+	<window id="Calendar" w="55" h="615" threshold="48" default="1">
+		<month id="Calendar.month" visible="%Images_White%" color="255,255,255" effect="%Text_Effect%" element="font.small" x="0" y="4" w="55" h="20" origin="TOP-CENTER" align="TOP-CENTER" showmonth="0" />
+		<month id="Calendar.month" visible="%Images_Black%" color="0,0,0" effect="%Text_Effect%" element="font.small" x="0" y="4" w="55" h="20" origin="TOP-CENTER" align="TOP-CENTER" showmonth="0" />
+		<year id="Calendar.year" visible="%Images_White%" color="255,255,255" effect="%Text_Effect%" element="font.small" x="0" y="16" origin="TOP-CENTER" align="TOP-CENTER" showmonth="0" />
+		<year id="Calendar.year" visible="%Images_Black%" color="0,0,0" effect="%Text_Effect%" element="font.small" x="0" y="16" origin="TOP-CENTER" align="TOP-CENTER" showmonth="0" />
+		<button id="Calendar.button.prev" visible="%Images_White%" element="white.arrow-l" origin="TOP-LEFT" x="2" y="18" action="Global_ShowMonth(-1)" />
+		<button id="Calendar.button.prev" visible="%Images_Black%" element="black.arrow-l" origin="TOP-LEFT" x="2" y="18" />
+		<button id="Calendar.button.next" visible="%Images_White%" element="white.arrow-r" origin="TOP-LEFT" x="41" y="18" action="Global_ShowMonth(+1)" />
+		<button id="Calendar.button.next" visible="%Images_Black%" element="black.arrow-r" origin="TOP-LEFT" x="41" y="18" />
+
+		<image visible="%Images_White%" element="white.verticalline" x="24" y="35" w="8" h="555" />
+		<image visible="%Images_Black%" element="black.verticalline" x="24" y="35" w="8" h="555" />
+		<calendar id="Calendar.calendar" x="0" y="35" w="27" h="580" layout="VERTICAL" showmonth="%Visible_month%" keeptodayinplace="0" postshowcount="0" preshowcount="0">
+			<days>
+				<appearance priority="-1" element="font.days" color="%Color_Weekdays%" effect="%Text_Effect%" align="CENTER" />
+			</days>
+			<events>
+				<appearance priority="0" element="font.days" color="%Color_Weekday_Events%" effect="%Text_Effect%" align="CENTER" />
+			</events>
+			<weekends>
+				<appearance priority="100" element="clear" align="CENTER" />
+			</weekends>
+			<today>
+				<appearance visible="%Images_White%" layer="10" element="white.today" align="CENTER" />
+				<appearance visible="%Images_Black%" layer="10" element="black.today" align="CENTER" />
+			</today>
+		</calendar>
+		<calendar id="Calendar.calendar" x="28" y="35" w="27" h="580" layout="VERTICAL" showmonth="%Visible_month%" keeptodayinplace="0" postshowcount="0" preshowcount="0">
+			<days>
+				<appearance priority="100" element="clear" effect="%Text_Effect%" align="CENTER" />
+			</days>
+			<events>
+				<appearance priority="0" element="font.days" color="%Color_Weekend_Events%" effect="%Text_Effect%" align="CENTER" />
+			</events>
+			<weekends>
+				<appearance priority="-1" element="font.days" color="%Color_Weekends%" effect="%Text_Effect%" align="CENTER" />
+			</weekends>
+		</calendar>
+
+	</window>
+</skin>

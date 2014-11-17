@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0">
+	<tooltip id="Tooltip" threshold="64" textmargins="7,6,9,24" offset="23,4">
+		<background id="Tooltip.background" element="bitmap.tooltip" margins="50,10,15,30" scaling="TILE" origin1="TOP-LEFT" x1="0" y1="0" origin2="BOTTOM-RIGHT" x2="0" y2="0" />
+		<header>
+			<appearance element="font.bold" color="255,255,255,255" effect="NORMAL" weight="BOLD" align="TOP-LEFT" />
+		</header>
+		<item>
+			<appearance element="font.normal" color="255,255,255,255" effect="NORMAL" align="TOP-LEFT" />
+		</item>
+		<separator id="Tooltip.separator" element="bitmap.tooltip.separator" scaling="TILE" margins="4,0,4,0" padding="15,6,15,3" />
+	</tooltip>
+</skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0">
+	<window id="Todo List" w="%Todolist_width%" default="1">
+		<button id="Todo List.button.newtodo" origin1="TOP-LEFT" x1="0" y1="0" origin2="TOP-RIGHT" x2="0" y2="20" dblcklaction="Global_ShowTodoDialog()" />
+		<text color="%Color_Header%" effect="%Text_Effect%" id="Todo List.header" element="font.large" x="-16" y="28" origin="TOP-%Align%" text="Todo List" />
+		<text color="%Color_Header%" effect="%Text_Effect%" id="Todo List.header" element="font.large" x="10" y="6" origin="TOP-%Align%" align="LEFT" text="Todo List" />
+		<scrollgroup id="Todo List.scrollgroup" origin1="TOP-LEFT" x1="10" y1="30" origin2="TOP-RIGHT" x2="-12" y2="%Todolist_height%" thumbelement="bitmap.scroll.thumb" barelement="bitmap.scroll.bar" barscaling="STRETCH" thumbscaling="STRETCH" thumbmargins="0,5,0,5" barmargins="0,5,0,5" showscrollbaraways="0" shrinktofit="1">
+			<todolist id="Todo List.todolist" origin1="TOP-LEFT" x1="0" y1="0" origin2="BOTTOM-RIGHT" x2="0" y2="0">
+				<header>
+					<appearance color="%Color_Categories%" effect="%Text_Effect%" padding="0,0,0,0" element="font.bold" align="TOP-%Align%" />
+				</header>
+				<item>
+					<appearance color="%Color_Items%" effect="%Text_Effect%" padding="0,0,0,3" element="font.normal" align="TOP-%Align%" />
+    			</item>
+				<overdueitem>
+					<appearance color="%Color_Items_Overdue%" effect="%Text_Effect%" padding="0,0,0,3" element="font.bold" align="TOP-%Align%" />
+				</overdueitem>
+				<completeditem>
+					<appearance color="%Color_Items_Completed%" effect="%Text_Effect%" padding="0,0,0,3" element="font.bold" align="TOP-%Align%" />
+				</completeditem>
+				<cancelleditem>
+					<appearance color="%Color_Items_Cancelled%" effect="%Text_Effect%" padding="0,0,0,3" element="font.italic" align="TOP-%Align%" />
+				</cancelleditem>
+				
+				<separator padding="0,10,0,0" />
+			</todolist>
+		</scrollgroup>
+	</window>
+</skin>

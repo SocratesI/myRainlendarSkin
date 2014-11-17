@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0">
+	<elements>
+		<gradient id="testbg" color1="201, 131, 59" color2="237, 170, 100" direction="VERTICAL" />
+		
+		<bitmapfont id="clear" file="clear.png" alphabet="0123456789" separation="-13" />
+		<bitmap id="white.verticalline" file="white/verticalline.png" />
+		<bitmap id="white.today" file="white/today.png" />
+		<bitmap id="white.arrow-l" file="white/arrow-l.png" />
+		<bitmap id="white.arrow-r" file="white/arrow-r.png" />
+		
+		<bitmap id="black.verticalline" file="black/verticalline.png" />
+		<bitmap id="black.today" file="black/today.png" />
+		<bitmap id="black.arrow-l" file="black/arrow-l.png" />
+		<bitmap id="black.arrow-r" file="black/arrow-r.png" />
+		
+		<font id="font.normal" facename="Segoe UI" size="8" />
+		<font id="font.small" facename="Segoe UI" weight="BOLD" size="7" />
+		<font id="font.bold" facename="Segoe UI" weight="BOLD" size="8" />
+		<font id="font.days" facename="Segoe UI" weight="BOLD" size="9" />
+		<font id="font.italic" facename="Segoe UI Italic" size="8" />
+		<font id="font.large" facename="Segoe UI" weight="BOLD" size="12" />
+		<font id="font.strikethrough" facename="Segoe UI" size="8" line="UNDERLINE" />
+		
+		<bitmap id="bitmap.icon.tv" file="images/icons/icon-tv.png" />
+		<bitmap id="bitmap.icon.small.tv" file="images/icons/icon-small-tv.png" />
+		<bitmap id="bitmap.icon.truck" file="images/icons/icon-truck.png" />
+		<bitmap id="bitmap.icon.small.truck" file="images/icons/icon-small-truck.png" />
+		<bitmap id="bitmap.icon.trophy" file="images/icons/icon-trophy.png" />
+		<bitmap id="bitmap.icon.small.trophy" file="images/icons/icon-small-trophy.png" />
+		<bitmap id="bitmap.icon.tools" file="images/icons/icon-tools.png" />
+		<bitmap id="bitmap.icon.small.tools" file="images/icons/icon-small-tools.png" />
+		<bitmap id="bitmap.icon.star" file="images/icons/icon-star.png" />
+		<bitmap id="bitmap.icon.small.star" file="images/icons/icon-small-star.png" />
+		<bitmap id="bitmap.icon.recycle" file="images/icons/icon-recycle.png" />
+		<bitmap id="bitmap.icon.small.recycle" file="images/icons/icon-small-recycle.png" />
+		<bitmap id="bitmap.icon.plane" file="images/icons/icon-plane.png" />
+		<bitmap id="bitmap.icon.small.plane" file="images/icons/icon-small-plane.png" />
+		<bitmap id="bitmap.icon.phone" file="images/icons/icon-phone.png" />
+		<bitmap id="bitmap.icon.small.phone" file="images/icons/icon-small-phone.png" />
+		<bitmap id="bitmap.icon.money" file="images/icons/icon-money.png" />
+		<bitmap id="bitmap.icon.small.money" file="images/icons/icon-small-money.png" />
+		<bitmap id="bitmap.icon.island" file="images/icons/icon-island.png" />
+		<bitmap id="bitmap.icon.small.island" file="images/icons/icon-small-island.png" />
+		<bitmap id="bitmap.icon.heart" file="images/icons/icon-heart.png" />
+		<bitmap id="bitmap.icon.small.heart" file="images/icons/icon-small-heart.png" />
+		<bitmap id="bitmap.icon.head" file="images/icons/icon-head.png" />
+		<bitmap id="bitmap.icon.small.head" file="images/icons/icon-small-head.png" />
+		<bitmap id="bitmap.icon.gift" file="images/icons/icon-gift.png" />
+		<bitmap id="bitmap.icon.small.gift" file="images/icons/icon-small-gift.png" />
+		<bitmap id="bitmap.icon.four" file="images/icons/icon-four.png" />
+		<bitmap id="bitmap.icon.small.four" file="images/icons/icon-small-four.png" />
+		<bitmap id="bitmap.icon.folder" file="images/icons/icon-folder.png" />
+		<bitmap id="bitmap.icon.small.folder" file="images/icons/icon-small-folder.png" />
+		<bitmap id="bitmap.icon.ball" file="images/icons/icon-ball.png" />
+		<bitmap id="bitmap.icon.small.ball" file="images/icons/icon-small-ball.png" />
+		<bitmap id="bitmap.icon.check" file="images/icons/icon-check.png" />
+		<bitmap id="bitmap.icon.small.check" file="images/icons/icon-small-check.png" />
+		<bitmap id="bitmap.icon.incoming" file="images/icons/icon-incoming.png" />
+		<bitmap id="bitmap.icon.small.incoming" file="images/icons/icon-small-incoming.png" />
+		<bitmap id="bitmap.icon.books" file="images/icons/icon-books.png" />
+		<bitmap id="bitmap.icon.small.books" file="images/icons/icon-small-books.png" />
+		<bitmap id="bitmap.icon.redcross" file="images/icons/icon-redcross.png" />
+		<bitmap id="bitmap.icon.small.redcross" file="images/icons/icon-small-redcross.png" />
+		<bitmap id="bitmap.icon.urgent" file="images/icons/icon-urgent.png" />
+		<bitmap id="bitmap.icon.small.urgent" file="images/icons/icon-small-urgent.png" />
+		<bitmap id="bitmap.tooltip" file="images/tooltip.png" frames="4" />
+		<bitmap id="bitmap.tooltip.separator" file="images/tooltip-separator.png" />
+		<bitmap id="bitmap.trayicon" file="images/trayicon.png" frames="31" />
+		<bitmap id="bitmap.progressbar.small" file="images/Todo-Progressbar-Small.png" />
+		<bitmap id="bitmap.progressbar.large" file="images/Todo-Progressbar-Large.png" />
+		<bitmap id="bitmap.alarm" file="images/MessageBox-bg.png" />
+		<bitmap id="button.snooze" file="images/button-snooze.png" frames="3" />
+		<bitmap id="button.snoozeall" file="images/button-snooze-all.png" frames="3" />
+		<bitmap id="button.dismiss" file="images/button-dismiss.png" frames="3" />
+		<bitmap id="button.dismissall" file="images/button-dismiss-all.png" frames="3" />
+		<bitmap id="bitmap.scroll.bar" file="images/scrollbar.png" />
+		<bitmap id="bitmap.scroll.thumb" file="images/scrollthumb.png" frames="3" />
+		<bitmap id="bitmap.todo.item" file="images/Todo-item.png" />
+	</elements>
+
+	<categories>
+		<category id="Anniversary">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.heart" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.heart" showalways="1" />
+		</category>
+		<category id="Birthday">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.star" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.star" showalways="1" />
+		</category>
+		<category id="Business">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.green" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.money" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.money" showalways="1" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="100,255,100,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="100,255,100,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Calls">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.phone" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.phone" showalways="1" />
+		</category>
+		<category id="Clients">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.green" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.head" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.head" showalways="1" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="100,255,100,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="100,255,100,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Competition">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.trophy" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.trophy" showalways="1" />
+		</category>
+		<category id="Customer">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.green" align="CENTER" />
+		</category>
+		<category id="Exam">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.books" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.books" showalways="1" />
+		</category>
+		<category id="Favorites">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.ball" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.ball" showalways="1" />
+		</category>
+		<category id="Follow Up">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.check" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.check" showalways="1" />
+		</category>
+		<category id="Gifts">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.gift" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.gift" showalways="1" />
+		</category>
+		<category id="Holidays">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.yellow" align="CENTER" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="255,255,0,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="255,255,0,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="255,255,0,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="255,255,0,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Ideas">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.four" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.four" showalways="1" />
+		</category>
+		<category id="Issues">
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="100,255,100,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="100,255,100,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Medical">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.redcross" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.redcross" showalways="1" />
+		</category>
+		<category id="Miscellaneous">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.magenta" align="CENTER" />
+		</category>
+		<category id="Personal">
+			<appearance target="1" layer="-2" priority="1" element="bitmap.numbers.glow" align="CENTER" ignoredefault="1" />
+		</category>
+		<category id="Projects">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.green" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.folder" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.folder" showalways="1" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="100,255,100,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="100,255,100,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Public Holiday">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.yellow" align="CENTER" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="255,255,0,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="255,255,0,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="255,255,0,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="255,255,0,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Status">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.cyan" align="CENTER" />
+		</category>
+		<category id="Travel">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.plane" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.plane" showalways="1" />
+		</category>
+		<category id="Trip">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.plane" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.plane" showalways="1" />
+		</category>
+		<category id="Suppliers">
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.truck" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.truck" showalways="1" />
+		</category>
+		<category id="Vacation">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.yellow" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.island" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.island" showalways="1" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="255,255,0,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="255,255,0,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="255,255,0,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="255,255,0,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="TV">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.lt.grey" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.tv" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.tv" showalways="1" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="200,200,200,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="200,200,200,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="200,200,200,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="200,200,200,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Important">
+			<appearance target="1" layer="0" priority="100" element="bitmap.numbers.red" align="CENTER" />
+			<appearance target="16" layer="0" priority="100" element="font.bold" color="255,80,80,255" effect="BORDER" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="100" element="font.bold" color="255,80,80,255" effect="BORDER" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="100" element="font.bold" color="255,80,80,255" effect="BORDER" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="100" element="font.large" color="255,80,80,255" effect="BORDER" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Urgent">
+			<appearance target="1" layer="0" priority="100" element="bitmap.numbers.red" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.urgent" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.urgent" showalways="1" />
+			<appearance target="16" layer="0" priority="100" element="font.bold" color="255,0,0,255" effect="BORDER" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="100" element="font.bold" color="255,0,0,255" effect="BORDER" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="100" element="font.bold" color="255,0,0,255" effect="BORDER" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="100" element="font.large" color="255,0,0,255" effect="BORDER" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+		<category id="Work">
+			<appearance target="1" layer="0" priority="1" element="bitmap.numbers.green" align="CENTER" />
+			<appearance target="1" layer="5" priority="1" element="bitmap.icon.small.tools" align="TOP-LEFT" showalways="1" />
+			<appearance target="30" layer="0" priority="1" element="bitmap.icon.tools" showalways="1" />
+			<appearance target="16" layer="0" priority="1" element="font.bold" color="100,255,100,255" align="TOP-LEFT" />
+			<appearance target="2" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="0,0,0,3" />
+			<appearance target="4" layer="0" priority="1" element="font.normal" color="100,255,100,255" align="TOP-LEFT" padding="10,0,0,3" />
+			<appearance target="8" layer="0" priority="1" element="font.large" color="100,255,100,255" align="TOP-LEFT" padding="30,0,0,0" />
+		</category>
+	</categories>
+</skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0">
+	<window id="Event List" w="%Eventlist_width%" default="1">
+		<button id="Event List.button.newevent" origin1="TOP-LEFT" x1="0" y1="0" origin2="TOP-RIGHT" x2="0" y2="20" dblcklaction="Global_ShowEventDialog()" />
+		<text color="%Color_Header%" effect="%Text_Effect%" id="Event List.header" element="font.large" x="-16" y="28" origin="TOP-%Align%" text="Event List" />
+		<text color="%Color_Header%" effect="%Text_Effect%" id="Event List.header" element="font.large" x="10" y="6" origin="TOP-%Align%" align="LEFT" text="Event List" />
+		<scrollgroup id="Event List.scrollgroup" origin1="TOP-LEFT" x1="10" y1="30" origin2="TOP-RIGHT" x2="-12" y2="%Eventlist_height%" thumbelement="bitmap.scroll.thumb" barelement="bitmap.scroll.bar" barscaling="STRETCH" thumbscaling="STRETCH" thumbmargins="0,5,0,5" barmargins="0,5,0,5" showscrollbaraways="0" shrinktofit="1">
+			<eventlist id="Event List.eventlist" origin1="TOP-LEFT" x1="0" y1="0" origin2="BOTTOM-RIGHT" x2="0" y2="0">
+				<header>
+					<appearance color="%Color_Dates%" effect="%Text_Effect%" padding="0,0,0,0" element="font.bold" align="TOP-%Align%" />
+				</header>
+				<item>
+					<appearance color="%Color_Items%" effect="%Text_Effect%" padding="0,0,0,0" element="font.normal" align="TOP-%Align%" />
+				</item>
+				<separator id="Event List.separator" padding="0,10,0,0" />
+			</eventlist>
+		</scrollgroup>
+	</window>
+</skin>
