@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="1.0">
+	
+	<info> 
+		<version>0.4</version>
+		<author>Nick Venturella</author>
+		<email>nick2588@fastmail.fm</email>
+		<homepage>http://nick.afraid.org</homepage>
+		<comment>Sidewall is a vertical calendar skin for Rainlendar 2.</comment>
+		<screenshot>screenshot.png</screenshot>
+	</info>
+	
+	<variables>
+		<variable name="Color_Weekdays" default="255,255,255" window="Calendar" description="Text color for weekdays (default 255,255,255)" />
+		<variable name="Color_Weekday_Events" default="0,128,255" window="Calendar" description="Text color for weekdays with events (default 0,128,255)" />
+		<variable name="Color_Weekends" default="255,255,255" window="Calendar" description="Text color for weekends (default 255,255,255)" />
+		<variable name="Color_Weekend_Events" default="0,128,255" window="Calendar" description="Text color for weekends with events (default 0,128,255)" />
+		<variable name="Text_Effect" default="SHADOW" window="Calendar" description="If Rainlendar's dropshadow effect causes problems with your chosen text colors, set this to NORMAL. Otherwise, set this to SHADOW to enable the dropshadow. (default SHADOW)" />
+		<variable name="Images_White" default="1" window="Calendar" description="Set this to 1 to use white lines and images. You must also set Images Black to 0! (default 1)" />
+		<variable name="Images_Black" default="0" window="Calendar" description="Set this to 1 to use black lines and images. You must also set Images White to 0! (default 0)" />
+		
+		<variable name="Color_Header" default="255,255,255" window="Event List" description="Text color for header (default 255,255,255)" />
+		<variable name="Color_Dates" default="255,255,255" window="Event List" description="Text color for dates (default 255,255,255)" />
+		<variable name="Color_Items" default="255,255,255" window="Event List" description="Text color for items/events (default 255,255,255)" />
+		<variable name="Text_Effect" default="SHADOW" window="Event List" description="If Rainlendar's dropshadow effect causes problems with your chosen text colors, set this to NORMAL. Otherwise, set this to SHADOW to enable the dropshadow. (default SHADOW)" />
+		<variable name="Eventlist_width" default="275" window="Event List" description="Width of the event list (default 275)" />
+		<variable name="Eventlist_height" default="400" window="Event List" description="Maximum height of the event list (default 400)" />
+		<variable name="Align" default="RIGHT" window="Event List" description="LEFT or RIGHT text alignment (default RIGHT)" />
+		
+		<variable name="Color_Header" default="255,255,255" window="Todo List" description="Text color for header (default 255,255,255)" />
+		<variable name="Color_Categories" default="255,255,255" window="Todo List" description="Text color for categories (default 255,255,255)" />
+		<variable name="Color_Items" default="255,255,255" window="Todo List" description="Text color for items (default 255,255,255)" />
+		<variable name="Color_Items_Overdue" default="230,10,10" window="Todo List" description="Text color for overdue items (default 230,10,10)" />
+		<variable name="Color_Items_Completed" default="70,255,70,150" window="Todo List" description="Text color for completed items (default 70,255,70,150)" />
+		<variable name="Color_Items_Cancelled" default="255,255,255,150" window="Todo List" description="Text color for cancelled items (default 255,255,255,150)" />
+		<variable name="Text_Effect" default="SHADOW" window="Todo List" description="If Rainlendar's dropshadow effect causes problems with your chosen text colors, set this to NORMAL. Otherwise, set this to SHADOW to enable the dropshadow. (default SHADOW)" />
+		<variable name="Todolist_width" default="275" window="Todo List" description="Width of the to do list (default 275)" />
+		<variable name="Todolist_height" default="200" window="Todo List" description="Maximum height of the to do list (default 200)" />		
+		<variable name="Align" default="RIGHT" window="Todo List" description="LEFT or RIGHT text alignment (default RIGHT)" />
+	</variables>
+	
+	<include file="xml/languages.xml" />
+	<include file="xml/elements.xml" />
+	<include file="xml/calendar.xml" />
+	<include file="xml/eventlist.xml" />
+	<include file="xml/todolist.xml" />
+	<include file="xml/tooltip.xml" />
+	<include file="xml/alarm.xml" />
+	
+	<trayicon element="bitmap.trayicon" />
+</skin>
